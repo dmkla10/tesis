@@ -1,0 +1,30 @@
+\chapter{Revisión Bibliográfica}
+
+\section{Hipergrafos y Predicción de Hiperenlaces}
+
+Como mencionan Chen \& Liu en `A Survey on Hyperlink Prediction' \cite{Chen_2024}, un hipergrafo es una generalización de los grafos, donde los hiperenlaces pueden tener una cantidad arbitraria de nodos.
+Matemáticamente, se define como \begin{math} H \in \{V,E\}\end{math} donde $V=\{n_{1},n_{2},...,n_{n}\}$ es el conjunto de nodos y $E=\{e_{1},e_{2},\dots,e_{m}\}$ es el conjunto de hiperenlaces, donde cada hiperenlace es un conjunto de nodos, y $e_{p} \subset E \: \forall \: p \in 1,\dots,n$.\\
+
+Para representar matricialmente un hipergrafo, se utiliza una \textit{matríz de incidencia} $H \in \mathbb{R}^{n \times m}$, donde cada fila representa un vector, cada columna un hiperenlace. En esta notación, el valor de $H_{j,i}$ es 1 si el nodo $i$ pertenece al hipernlace $j$, y 0 si no.\\
+
+En este mismo artículo, se plantea el problema de la predicción de hiperenlaces como el aprendizaje de la función $\Psi $ tal que para un hiperenlace potencial $e$ se logre:
+
+\begin{center}
+    \begin{math}
+        \Phi (e) = 
+        \begin{cases}
+            \geq \epsilon &\text{si $e \in E$}\\
+            < \epsilon &\text{si $e \notin E$}
+        \end{cases}
+    \end{math}
+\end{center}
+
+donde $\epsilon$ es un valor de corte para convertir un posible valor continuo de $\Psi$ en valor binario.\\
+
+El tema principal de la publicación es una revisión sistemática de la literatura sobre predicción de hiperenlaces; esta será nuestra fuente inicial para entender el estado del arte.\\
+
+Se propone una taxonomía que clasifica los modelos en cuatro categorías: (1) métodos basados en similitud, (2) basados en probabilidad, (3) basados en optimización de matrices y (4) basados en aprendizaje profundo.\\
+
+Dentro de cada categoría también se divide entre métodos directos e indirectos, siendo indirectos aquellos que son inicialmente propuestos como modelos de predicción de enlaces o clusterización, y que pueden ser modificados para hacer predicción de hiperenlaces; y directos aquellos que son desarrollandos específicamente para predicción de hiperenlaces.\\
+
+Como mencionamos en la introducción, son de nuestro interés los modelos probabilísticos bayesianos; de este tipo de modelos, se menciona un modelo indirecto basado en \cite{NIPS2005_182e6c2d}.\\

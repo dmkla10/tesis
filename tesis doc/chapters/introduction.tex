@@ -1,0 +1,42 @@
+\chapter{Introducción}
+
+\section{Motivación}
+
+El estudio de asociaciones o agrupaciones entre individuos es un tema de relevancia el análisis de redes sociales, con aplicaciones en diversas áreas, desde el marketing hasta la criminología. Cuando las asociaciones son de una cantidad variable de sujetos, es natural modelar el fenómeno como un hipergrafo: una generalización de los grafos donde los enlaces son de dos o más nodos.\\
+
+En este contexto, un problema que ha ganado interés académico en los últimos años es la predicción de hiperenlaces; esto es, evaluar y proponer cuáles son los hiperenlaces más probables de de existir, ya sean futuros o faltantes, dados los patrones de asociación de los nodos en los hiperenlaces observados.\\
+
+Nuestro interés por este problema nace desde un caso específico: la inferencia de participantes en un delito para el apoyo a la investigación penal en el contexto del proyecto Fiscal Heredia.\\
+
+En la próxima sección daremos contexto sobre las aplicaciones de inteligencia artificial en la Fiscalía Nacional Chilena en el marco de Fiscal Heredia, para luego proponer un conjunto de características deseadas en un modelo de redes sociales para este contexto.
+
+\section{Fiscal Heredia}
+
+Explicar el origen y las diferentes aplicaciones.\\
+
+Dado lo anterior, las características deseables del modelo planteado son:
+\begin{enumerate}
+\item Capacidad de aprender las preferencias de asociación de los nodos respecto a las características de la asociación (atributos de los hiperenlaces) como respecto a las características de los nodos con quienes se asocia.
+\item Integración de un mecanismo de llegada de nuevos sujetos al mercado criminal a través de su participación en delitos con nodos ya pertenecientes a la red.
+\item Capacidad de realizar inferencia sobre estos sujetos nuevos, los cuáles naturalmente tendrán poco historial para ajustar sus preferencias.
+\item Capacidad de explicitar la incertidumbre sobre las inferencias realizadas, a manera de entregar información completa y transparente que apoye mejor el análisis criminal
+\end{enumerate}
+
+
+\section{Objetivos}
+
+Los objetivos para este trabajo de tesis son:\\
+
+Objetivo General:
+\begin{itemize}
+    \item Diseñar, desarrollar y evaluar un modelo bayesiano de inferencia de hiperenlaces que cumpla con las características deseables para su aplicación en el contexto de Fiscalía.\\
+\end{itemize}
+
+
+Objetivos Específicos:
+\begin{itemize}
+    \item Proponer un diseño para el modelo basado en la literatura y los requisitos de la aplicación.
+    \item Desarrollar el modelo en software especializado de manera que sea computacionalmente factible.
+    \item Evaluar el rendimiento del modelo con conjuntos de datos de crímen y de marketing para explorar sus posibles usos.
+    \item Proponer una breve metodología para su uso.
+\end{itemize}
