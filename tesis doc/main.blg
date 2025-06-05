@@ -3,44 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: natnumurl.bst
 Database file #1: library.bib
-You've used 5 entries,
+Warning--string name "nov" is undefined
+--line 23 of file library.bib
+You've used 2 entries,
             1986 wiz_defined-function locations,
-            468 strings with 3829 characters,
-and the built_in function-call counts, 936 in all, are:
-= -- 87
-> -- 20
+            461 strings with 3779 characters,
+and the built_in function-call counts, 740 in all, are:
+= -- 73
+> -- 27
 < -- 0
-+ -- 10
-- -- 5
-* -- 70
-:= -- 124
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 5
++ -- 9
+- -- 7
+* -- 53
+:= -- 96
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 33
-empty$ -- 120
-format.name$ -- 5
-if$ -- 231
+cite$ -- 2
+duplicate$ -- 47
+empty$ -- 62
+format.name$ -- 7
+if$ -- 183
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 1
-newline$ -- 31
-num.names$ -- 5
-pop$ -- 29
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 16
+num.names$ -- 4
+pop$ -- 8
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 30
+skip$ -- 44
 stack$ -- 0
-substring$ -- 32
-swap$ -- 9
+substring$ -- 26
+swap$ -- 28
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 8
-width$ -- 6
-write$ -- 54
+while$ -- 4
+width$ -- 3
+write$ -- 30
+(There was 1 warning)

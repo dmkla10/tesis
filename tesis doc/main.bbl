@@ -4,28 +4,13 @@
   \providecommand\backrefprint{}
 
 \backrefparscanfalse
-\bibitem{overleaf}
-Overleaf, ``Uno de los mejores editores online para \latex, renovado con su versión 2.0'', Agosto 2024, \href{https://es.overleaf.com/} {\nolinkurl{\detokenize{https://es.overleaf.com/}}}.
+\bibitem{Chen_2024}
+Chen, C. y Liu, Y.-Y., ``A survey on hyperlink prediction'', {IEEE Transactions on Neural Networks and Learning Systems}, vol.~35, no.~11, p.~15034–15050, 2024, \href{https://dx.doi.org/10.1109/tnnls.2023.3286280} {\nolinkurl{doi:\detokenize{10.1109/tnnls.2023.3286280}}}.
 \backrefprint\backrefparscantrue
 
 \backrefparscanfalse
-\bibitem{excel2latex}
-Excel2Latex, ``Plugin para hacer tablas con excel'', 2017, \href{https://www.ctan.org/tex-archive/support/excel2latex/} {\nolinkurl{\detokenize{https://www.ctan.org/tex-archive/support/excel2latex/}}}.
-\backrefprint\backrefparscantrue
-
-\backrefparscanfalse
-\bibitem{tablesgenerator}
-Generator, T., ``Creador de tablas online para \latex'', 2024, \href{https://www.tablesgenerator.com} {\nolinkurl{\detokenize{https://www.tablesgenerator.com}}}.
-\backrefprint\backrefparscantrue
-
-\backrefparscanfalse
-\bibitem{einstein}
-Einstein, A., ``{Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the electrodynamics of moving bodies]'', {Annalen der Physik}, vol.~322, no.~10, pp.~891--921, 1905, \href{https://dx.doi.org/https://dx.doi.org/10.1002/andp.19053221004} {\nolinkurl{doi:\detokenize{https://dx.doi.org/10.1002/andp.19053221004}}}.
-\backrefprint\backrefparscantrue
-
-\backrefparscanfalse
-\bibitem{template}
-Pizarro, P., ``Template informe en \latex'', 2016-2024, \href{https://latex.ppizarror.com/informe} {\nolinkurl{\detokenize{https://latex.ppizarror.com/informe}}}.
+\bibitem{NIPS2005_182e6c2d}
+Ghahramani, Z. y Heller, K.~A., ``Bayesian sets'', en {Advances in Neural Information Processing Systems} (Weiss, Y., Sch\"{o}lkopf, B., y Platt, J., eds.), vol.~18, MIT Press, 2005, \href{https://proceedings.neurips.cc/paper_files/paper/2005/file/182e6c2d3d78eef40e5dac7da77a748f-Paper.pdf} {\nolinkurl{\detokenize{https://proceedings.neurips.cc/paper_files/paper/2005/file/182e6c2d3d78eef40e5dac7da77a748f-Paper.pdf}}}.
 \backrefprint\backrefparscantrue
 
 \end{thebibliography}
