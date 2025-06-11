@@ -2,16 +2,20 @@
 
 \section{Hipergrafos y Predicción de Hiperenlaces}
 
-Como mencionan Chen \& Liu en `A Survey on Hyperlink Prediction' \cite{Chen_2024}, un hipergrafo es una generalización de los grafos, donde los hiperenlaces pueden tener una cantidad arbitraria de nodos.
-Matemáticamente, se define como \begin{math} H \in \{V,E\}\end{math} donde $V=\{n_{1},n_{2},...,n_{n}\}$ es el conjunto de nodos y $E=\{e_{1},e_{2},\dots,e_{m}\}$ es el conjunto de hiperenlaces, donde cada hiperenlace es un conjunto de nodos, y $e_{p} \subset E \: \forall \: p \in 1,\dots,n$.\\
+\subsection{Definición de hipergrafo}
+
+Como mencionan Chen \& Liu \cite{Chen_2024}, los hipergrafo son una generalización de los grafos, donde los hiperenlaces pueden tener una cantidad arbitraria de nodos.
+Matemáticamente, se define como \begin{math} H \in \{V,E\}\end{math} donde $V=\{n_{1},n_{2},...,n_{n}\}$ es el conjunto de nodos y $E=\{e_{1},e_{2},\dots,e_{m}\}$ es el conjunto de hiperenlaces, donde cada hiperenlace es un subconjunto de nodos, o sea, $e_{p} \subset E \; \; \forall \: p \in 1,\dots,m$.\\
 
 Para representar matricialmente un hipergrafo, se utiliza una \textit{matríz de incidencia} $H \in \mathbb{R}^{n \times m}$, donde cada fila representa un vector, cada columna un hiperenlace. En esta notación, el valor de $H_{j,i}$ es 1 si el nodo $i$ pertenece al hipernlace $j$, y 0 si no.\\
 
+
+\subsection{Definición de predicción de hiperenlaces}
 En este mismo artículo, se plantea el problema de la predicción de hiperenlaces como el aprendizaje de la función $\Psi $ tal que para un hiperenlace potencial $e$ se logre:
 
 \begin{center}
     \begin{math}
-        \Phi (e) = 
+        \Psi (e) = 
         \begin{cases}
             \geq \epsilon &\text{si $e \in E$}\\
             < \epsilon &\text{si $e \notin E$}
@@ -20,6 +24,8 @@ En este mismo artículo, se plantea el problema de la predicción de hiperenlace
 \end{center}
 
 donde $\epsilon$ es un valor de corte para convertir un posible valor continuo de $\Psi$ en valor binario.\\
+
+\subsection{Modelos de predicción de hiperenlaces}
 
 El tema principal de la publicación es una revisión sistemática de la literatura sobre predicción de hiperenlaces; esta será nuestra fuente inicial para entender el estado del arte.\\
 

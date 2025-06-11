@@ -1,0 +1,47 @@
+\chapter{Modelo Propuesto}
+
+\section{Modelo Generativo Subyacente}
+
+Para plantear nuestro modelo, asumimos un modelo generativo subyacente, el cuál no nos interesa ajustar ni modelar en detalle, pero que es útil para el planteamiento del nuestro modelo de predicción de enlaces.\\
+
+El algoritmo generativo de la hiperred se define como:
+
+\begin{algorithm}
+\caption{Hypergraph Generative Algorithm}\label{alg:cap}
+\begin{algorithmic}
+\Require $H_{0}$,  $p(e_{t+1}, a_{e_{t+1}}) = f(e_{t+1}, a_{e_{t+1}}|H_{t}, \Theta)$
+\State $t \gets 0$
+\While{$t \leq T$}
+
+Sample the next hyperedge from $p(e_{t+1}, a_{e_{t+1}})$
+\State $t \gets t+1$
+
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+
+Notación:\\
+
+Los nodos de cada hiperenlace t se dividen entre nodos que ya eran parte de la red y nodos nuevos:\\
+
+$e_t =  e_{nuevos_t} \bigcup e_{antiguos_t}$\\
+
+Los nodos de cada hiperenlace nuevo se dividen entre nodos conocidos y nodos desconocidos:\\
+
+$e_{t+1} = e_{conocidos_{t+1}} \bigcup e_{desconocidos_{t+1}}$\\
+
+Uniendo ambas notaciones, tenemos que un hiperenlace nuevo se descompone en:\\
+
+$e_{t+1} = e_{antiguos, desconocidos_{t+1}} \bigcup e_{antiguos, conocidos_{t+1}} \bigcup e_{nuevos, conocidos_{t+1}} \bigcup e_{nuevos, desconocidos_{t+1}}$\\
+
+$X_{S}$: Matriz de atributos de los nodos del conjunto S.\\
+
+$p(e_{t+1}, a_{e_{t+1}}, X_{e_{nuevos_{t+1}}}   ) = f(e_{t+1}, a_{e_{t+1}}|H_{t}, \Theta)$\\
+
+(1) $p(|e_{t+1}| = k \;|\; H_{t}, a_{e_{t+1}}, e_{conocidos_{t+1}}, \gamma)$\\
+
+(2) $p(|e_{nuevos_{t+1}}| = l \;|\; H_{t}, |e_{t+1}|, a_{e_{t+1}}, e_{conocidos_{t+1}}, \theta)$\\
+
+(3) $p(n_{i} \in e_{antiguos,desconocidos_{t+1}} \;|\; H_{t}, |e_{t+1}|, a_{e_{t+1}}, e_{conocidos_{t+1}}, \beta)$\\
+
+(4) $p(X_{e_{nuevos,desconocidos_{t+1}}} \;|\; H_{t}, |e_{t+1}|, a_{e_{t+1}}, \lambda)$\\

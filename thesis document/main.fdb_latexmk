@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1749161429.87396 "main.aux" "main.bbl" "main" 1749161433.72448 0
+["bibtex main"] 1749584931.19456 "main.aux" "main.bbl" "main" 1749605228.2633 0
   "./library.bib" 1749161211 896 2fc3cb489aa84a87e8b62a3e41443803 ""
   "./natnumurl.bst" 1748834226 21201 c3a97a2434b58cd70f7f9c9df607b80a ""
-  "main.aux" 1749161432 4586 8d0595f4e90791b86da721ec4c4e17b9 "pdflatex"
+  "main.aux" 1749605224 7886 3b112b4d5aed71366c761e6ac4728c58 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1749161430.35633 "c:/Users/dimot/Documents/Universidad/tesis/tesis/tesis doc/main.tex" "main.pdf" "main" 1749161433.72504 0
-  "c:/Users/dimot/Documents/Universidad/tesis/tesis/tesis doc/main.tex" 1749160420 2972 c562ac4bb56a55f9a13d21670dd9c288 ""
+["pdflatex"] 1749605215.65846 "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" "main.pdf" "main" 1749605228.26423 0
+  "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" 1749581022 3061 546df54f9e34dd182e876007de8ce412 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1748807559 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1748807559 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748807559 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -68,9 +68,11 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb" 1748807559 112766 6259d69aa3d87a505f375e49d8f6bf3a ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1748807559 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1748807559 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb" 1748807559 31113 04b711c9a4c7f8cb4ed784c6fc4cc1c5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1748807559 30635 833ec815d446ec453a4913fc26d24cbc ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1748807559 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1748807559 113634 9384aebdf26f9881e046a4b5574566db ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb" 1748807559 123394 992f5e87d698d9e94717394c62580ea6 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1748807559 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb" 1748807559 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb" 1748807559 27863 09ce3735688ffde955e72da27c95b61a ""
@@ -109,6 +111,9 @@
   "c:/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty" 1748814438 56907 b74d2bd6fed8dc761953edb2fbea781b ""
   "c:/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-pdftex.def" 1748814438 4304 461724faa0dfbdec2d80de16c11f407c ""
   "c:/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty" 1748814438 7245 2bf1779563af51e666da8f26ea1f8455 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty" 1748818996 26750 ce139c05a983e19ddca355b43e29c395 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty" 1748818996 3457 d9077efe6b74c5a094199256af8d7d9a ""
+  "c:/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty" 1748818997 3249 15763257e50278eef5db1952ccde229c ""
   "c:/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty" 1748807258 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1748807268 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1748807268 13829 94730e64147574077f8ecfea9bb69af4 ""
@@ -271,13 +276,14 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748824019 3568607 0285e8a529c34ecc473940c592cdeb56 ""
   "c:/texlive/2025/texmf.cnf" 1748807783 713 e69b156964470283e0530f5060668171 ""
   "chapters/introduction.tex" 1749160000 2926 1c6736df29b14bc4f43931cf1d111ce9 ""
-  "chapters/literature_review.tex" 1749161424 2400 6794951152bcc49137560d3c38bc8afa ""
+  "chapters/literature_review.tex" 1749573773 2531 1f6680b3ca693b76d90591c85c957143 ""
+  "chapters/proposed_model.tex" 1749605211 1839 08273b2cc7814c918a6d7bc9dff93de1 ""
   "img//departamentos/uchile2.pdf" 1748834226 18772 1d92f499584e10e4c8e0b3bf44be0bbf ""
-  "main.aux" 1749161432 4586 8d0595f4e90791b86da721ec4c4e17b9 "pdflatex"
-  "main.bbl" 1749161430 1017 8436f02e7588d52b1e0978ba3500f2be "bibtex main"
-  "main.tex" 1749160420 2972 c562ac4bb56a55f9a13d21670dd9c288 ""
-  "main.toc" 1749161432 549 abf04dd5198d8519bf4ce8f3dd39ec02 "pdflatex"
-  "template.tex" 1748834226 290939 b14fe810fc26a3379a94a3397aa30319 ""
+  "main.aux" 1749605224 7886 3b112b4d5aed71366c761e6ac4728c58 "pdflatex"
+  "main.bbl" 1749584932 1017 8436f02e7588d52b1e0978ba3500f2be "bibtex main"
+  "main.tex" 1749581022 3061 546df54f9e34dd182e876007de8ce412 ""
+  "main.toc" 1749605224 1024 bbe540bd3599b2066b67ef149111227d "pdflatex"
+  "template.tex" 1749580957 290939 b14fe810fc26a3379a94a3397aa30319 ""
   "template_config.tex" 1748834226 21965 2a99f3119ef44872b6f304c32fbac1fa ""
   (generated)
   "main.aux"
