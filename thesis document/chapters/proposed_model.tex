@@ -45,3 +45,61 @@ $p(e_{t+1}, a_{e_{t+1}}, X_{e_{nuevos_{t+1}}}   ) = f(e_{t+1}, a_{e_{t+1}}|H_{t}
 (3) $p(n_{i} \in e_{antiguos,desconocidos_{t+1}} \;|\; H_{t}, |e_{t+1}|, a_{e_{t+1}}, e_{conocidos_{t+1}}, \beta)$\\
 
 (4) $p(X_{e_{nuevos,desconocidos_{t+1}}} \;|\; H_{t}, |e_{t+1}|, a_{e_{t+1}}, \lambda)$\\
+
+
+
+% Aquí va el diagrama del modelo jerárquico
+\input{chapters/images/model.tex}
+
+
+
+\section{Modelo Básico}
+
+Para nuestro primer acercamiento al modelo, consideraremos una cantidad fija de nodos $I$, y una cantidad de hiperenlaces observados $J$.
+
+Definimos las siguientes variables aleatorias:
+
+\begin{center}
+    $x_{i,j}:$ Participación del nodo i en el hiperenlace j.
+\end{center}
+
+\begin{center}
+    $z_{j}:$ Tamaño del hiperenlace j.
+\end{center}
+
+
+Y definimos los siguientes vectores de atributos:\\
+
+\begin{center}
+    $u_{i}^{t(j)}:$ Atributos del nodo i en el momento de ocurrencia del hiperenlace j.
+\end{center}
+
+\begin{center}
+    $w_{j}:$ Atributos del hiperenlace j.
+\end{center}
+
+\begin{center}
+    $k_{j}:$ Identificador categórico del hiperenlace j.
+\end{center}
+
+Primero, planteamos los modelos probabilisticos para las dos variables aleatorias:
+
+\begin{center} 
+    $x_{i,j} \sim Bernoulli(logit^{-1}(u_{i,j}))$
+\end{center}
+
+\begin{center} 
+    $u_{i,j} = \alpha_{i,k_j} + \beta_{i}*w_{j} + \beta_{k_j}*u_{i}^{t(j)}$
+\end{center}
+
+\begin{center}
+    $\beta_{k_j} \sim normal(0,1)$
+\end{center}
+
+\begin{center}
+    $\beta_{i} \sim normal(\mu,1)$
+\end{center}
+
+\begin{center}
+    $\mu \sim normal(0,3)$
+\end{center}
