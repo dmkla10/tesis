@@ -1,0 +1,15 @@
+
+\begin{figure}
+  \begin{tikzpicture}
+
+    \node[latent] (beta) {$\beta$};
+
+    \node[const, below=of beta] (sigma_theta) {$\sigma_\theta$};
+
+    \plate [inner sep=0.3cm] {plate_i} 
+        {(beta) (sigma_theta)} 
+        {Hiperparámetros}; 
+
+  \end{tikzpicture}  
+\end{figure}
+

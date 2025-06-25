@@ -4,6 +4,12 @@
   \providecommand\backrefprint{}
 
 \backrefparscanfalse
+\bibitem{gelman2013bayesian}
+Gelman, A., Carlin, J., Stern, H., Dunson, D., Vehtari, A., y Rubin, D., {Bayesian Data Analysis, Third Edition}.
+\newblock Chapman \& Hall/CRC Texts in Statistical Science, Taylor \& Francis, 2013, \href{https://books.google.cl/books?id=ZXL6AQAAQBAJ} {\nolinkurl{\detokenize{https://books.google.cl/books?id=ZXL6AQAAQBAJ}}}.
+\backrefprint\backrefparscantrue
+
+\backrefparscanfalse
 \bibitem{Chen_2024}
 Chen, C. y Liu, Y.-Y., ``A survey on hyperlink prediction'', {IEEE Transactions on Neural Networks and Learning Systems}, vol.~35, no.~11, p.~15034–15050, 2024, \href{https://dx.doi.org/10.1109/tnnls.2023.3286280} {\nolinkurl{doi:\detokenize{10.1109/tnnls.2023.3286280}}}.
 \backrefprint\backrefparscantrue

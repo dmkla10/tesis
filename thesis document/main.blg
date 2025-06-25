@@ -5,45 +5,45 @@ The style file: natnumurl.bst
 Database file #1: library.bib
 Warning--string name "nov" is undefined
 --line 23 of file library.bib
-You've used 2 entries,
+You've used 3 entries,
             1986 wiz_defined-function locations,
-            461 strings with 3779 characters,
-and the built_in function-call counts, 740 in all, are:
-= -- 73
-> -- 27
+            468 strings with 4040 characters,
+and the built_in function-call counts, 984 in all, are:
+= -- 91
+> -- 47
 < -- 0
-+ -- 9
-- -- 7
-* -- 53
-:= -- 96
-add.period$ -- 2
-call.type$ -- 2
++ -- 16
+- -- 13
+* -- 77
+:= -- 134
+add.period$ -- 4
+call.type$ -- 3
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 47
-empty$ -- 62
-format.name$ -- 7
-if$ -- 183
+cite$ -- 3
+duplicate$ -- 56
+empty$ -- 86
+format.name$ -- 13
+if$ -- 240
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 16
-num.names$ -- 4
-pop$ -- 8
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 22
+num.names$ -- 5
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 44
+skip$ -- 46
 stack$ -- 0
 substring$ -- 26
-swap$ -- 28
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 30
+while$ -- 5
+width$ -- 4
+write$ -- 42
 (There was 1 warning)

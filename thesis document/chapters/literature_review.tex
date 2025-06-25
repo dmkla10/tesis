@@ -1,5 +1,32 @@
 \chapter{Revisión Bibliográfica}
 
+\section {Inferencia Bayesiana}
+
+\subsection{Definición}
+Como mencionan Gelman en \cite{gelman2013bayesian}, la `inferencia Bayesiana es el proceso de ajustar un modelo de probabilidad a un conjunto de datos y resumir los resultados con una distribución de probabilidad sobre los parámetros del modelo y sobre cantidades no observadas como predicciones para nuevas observaciones'.\\
+
+La primera pieza para hacer inferencia con este paradigma, es definir un modelo de probabilidad conjunta sobre los datos, y los parámetros que gobiernan la generación de los datos; esto es, definir:
+
+\begin{center}
+    $p(\theta, y) = p(\theta)p(y|\theta)$
+\end{center}
+
+Esto corresponde a definir un modelo de probabilidad generador de los datos, dados los valores de $\theta$, y una distribución \textit{a priori} de los parámetros de dicho modelo, la cuál luego será actualizada con la observación de los datos.\\
+
+Para realizar la actualización de la distribución de $\theta$, utilizamos la \textit{regla de bayes}:
+
+\begin{center}
+    $p(\theta | y) = \dfrac{p(y|\theta)p(\theta)}{p(y)}$
+\end{center}
+
+Donde el factor $p(y)$ corresponde a la distribución marginal de los datos en nuestro modelo. Este valor en la práctica no se utiliza pues corresponde a una constante.\\
+
+\subsection{Modelos Jerárquicos}
+
+Como se menciona en el capítulo 5 de \cite{gelman2013bayesian}, existen muchos casos donde los parámetros de nuestros modelos están relacionados por la estructura del modelo, implicando que la distribución conjunta de dichos parámetros debería reflejar dicha conexión.\\
+
+Por ejemplo, en el caso del crímen, diferentes sujetos tienen diferentes 
+
 \section{Hipergrafos y Predicción de Hiperenlaces}
 
 \subsection{Definición de hipergrafo}
