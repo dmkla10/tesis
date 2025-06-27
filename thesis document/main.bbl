@@ -15,8 +15,18 @@ Chen, C. y Liu, Y.-Y., ``A survey on hyperlink prediction'', {IEEE Transactions 
 \backrefprint\backrefparscantrue
 
 \backrefparscanfalse
-\bibitem{NIPS2005_182e6c2d}
-Ghahramani, Z. y Heller, K.~A., ``Bayesian sets'', en {Advances in Neural Information Processing Systems} (Weiss, Y., Sch\"{o}lkopf, B., y Platt, J., eds.), vol.~18, MIT Press, 2005, \href{https://proceedings.neurips.cc/paper_files/paper/2005/file/182e6c2d3d78eef40e5dac7da77a748f-Paper.pdf} {\nolinkurl{\detokenize{https://proceedings.neurips.cc/paper_files/paper/2005/file/182e6c2d3d78eef40e5dac7da77a748f-Paper.pdf}}}.
+\bibitem{Prasanna_2020}
+Patil, P., Sharma, G., y Murty, M.~N., ``Negative sampling for hyperlink prediction in networks'', en {Advances in Knowledge Discovery and Data Mining} (Lauw, H.~W., Wong, R. C.-W., Ntoulas, A., Lim, E.-P., Ng, S.-K., y Pan, S.~J., eds.), (Cham), pp.~607--619, Springer International Publishing, 2020.
+\backrefprint\backrefparscantrue
+
+\backrefparscanfalse
+\bibitem{Hwang_2022}
+Hwang, H., Lee, S., Park, C., y Shin, K., ``Ahp: Learning to negative sample for hyperedge prediction'', 2022, \href{https://arxiv.org/abs/2204.06353} {\nolinkurl{\detokenize{https://arxiv.org/abs/2204.06353}}}.
+\backrefprint\backrefparscantrue
+
+\backrefparscanfalse
+\bibitem{Yu_2024}
+Yu, T., Lee, S.~Y., Hwang, H., y Shin, K., ``{ Prediction Is NOT Classification: On Formulation and Evaluation of Hyperedge Prediction }'', en {2024 IEEE International Conference on Data Mining Workshops (ICDMW)}, (Los Alamitos, CA, USA), pp.~349--356, IEEE Computer Society, 2024, \href{https://dx.doi.org/10.1109/ICDMW65004.2024.00051} {\nolinkurl{doi:\detokenize{10.1109/ICDMW65004.2024.00051}}}.
 \backrefprint\backrefparscantrue
 
 \end{thebibliography}

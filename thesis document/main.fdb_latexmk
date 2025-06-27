@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1750203879.11578 "main.aux" "main.bbl" "main" 1750203885.01536 0
-  "./library.bib" 1750190461 1300 0717ef58bf560b7b72f560db6e41f19c ""
+["bibtex main"] 1751000663.03398 "main.aux" "main.bbl" "main" 1751001400.8338 0
+  "./library.bib" 1750998905 5600 3b0f2c3536e448146879fa1b2aaaab47 ""
   "./natnumurl.bst" 1748834226 21201 c3a97a2434b58cd70f7f9c9df607b80a ""
-  "main.aux" 1750203882 9695 735e7b10f72cbb301540fcda56da77d3 "pdflatex"
+  "main.aux" 1751001399 8960 6344c23fda52e682be8cb3eadd00c3e3 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1750203879.87226 "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" "main.pdf" "main" 1750203885.0173 0
-  "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" 1750017429 3107 541e543d4e48ec6b64e31390a912a818 ""
+["pdflatex"] 1751001397.29143 "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" "main.pdf" "main" 1751001400.83435 0
+  "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" 1750993181 3130 f86d23db78ca1d9f260227560ff68d3e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1748807559 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1748807559 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748807559 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -215,6 +215,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty" 1748807519 5525 9dced5929f36b19fa837947f5175b331 ""
   "c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty" 1748807519 5048 0270515b828149155424600fd2d58ac5 ""
   "c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty" 1748807519 2846 e26604d3d895e65d874c07f30c291f3f ""
+  "c:/texlive/2025/texmf-dist/tex/latex/blkarray/blkarray.sty" 1748814813 72396 c58b7130fcef93ea5c7323ef15cc4bc6 ""
   "c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1748807340 8818 aa5157b46368efebf023abff55611467 ""
   "c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty" 1748807340 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
   "c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty" 1748807342 6078 f1cb470c9199e7110a27851508ed7a5c ""
@@ -366,13 +367,13 @@
   "c:/texlive/2025/texmf.cnf" 1748807783 713 e69b156964470283e0530f5060668171 ""
   "chapters/images/model.tex" 1750019001 295 46fac5e67550c4390d6fc1020b8c5509 ""
   "chapters/introduction.tex" 1749160000 2926 1c6736df29b14bc4f43931cf1d111ce9 ""
-  "chapters/literature_review.tex" 1750203857 4224 a2501be2c9a45f5b8e792cb868195a69 ""
+  "chapters/literature_review.tex" 1751001396 6875 7fd90c531c8726e420eb6ab83e7a2616 ""
   "chapters/proposed_model.tex" 1750188977 3136 ddda4f4456f7f6b470026714ce90f1cf ""
   "img//departamentos/uchile2.pdf" 1748834226 18772 1d92f499584e10e4c8e0b3bf44be0bbf ""
-  "main.aux" 1750203882 9695 735e7b10f72cbb301540fcda56da77d3 "pdflatex"
-  "main.bbl" 1750203879 1427 0014c6d6df889b38ffb44db15b09b2c9 "bibtex main"
-  "main.tex" 1750017429 3107 541e543d4e48ec6b64e31390a912a818 ""
-  "main.toc" 1750203882 1349 d2e475ee33203b8e5fc83ec7a28fad8b "pdflatex"
+  "main.aux" 1751001399 8960 6344c23fda52e682be8cb3eadd00c3e3 "pdflatex"
+  "main.bbl" 1751000663 2064 dba98a9832955ccced24cb7e88e1864e "bibtex main"
+  "main.tex" 1750993181 3130 f86d23db78ca1d9f260227560ff68d3e ""
+  "main.toc" 1751001399 1226 f45af92e90a9326dcfd6c59d6ca72331 "pdflatex"
   "template.tex" 1749580957 290939 b14fe810fc26a3379a94a3397aa30319 ""
   "template_config.tex" 1748834226 21965 2a99f3119ef44872b6f304c32fbac1fa ""
   (generated)

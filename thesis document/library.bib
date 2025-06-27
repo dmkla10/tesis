@@ -34,3 +34,49 @@
   publisher={Taylor \& Francis}
 }
 
+@INPROCEEDINGS {Yu_2024,
+author = { Yu, Taehyung and Lee, Soo Yong and Hwang, Hyunjin and Shin, Kijung },
+booktitle = { 2024 IEEE International Conference on Data Mining Workshops (ICDMW) },
+title = {{ Prediction Is NOT Classification: On Formulation and Evaluation of Hyperedge Prediction }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {349-356},
+abstract = { A hypergraph, which consists of nodes and hyperedges (i.e., subsets of nodes), naturally represents group relations, such as recipes consisting of ingredients, outfits consisting of fashion items, and collaborations among researchers. The hyperedge prediction (HP) problem, which involves predicting future or missing hyperedges, has gained attention for applications, including recipe development, outfit recommendation, and collaborator search. However, due to the vast number of hyperedge candidates, which is about 2n for n nodes, it is extremely challenging to identify the most promising ones among the entire candidate set. Thus, the problem is commonly reformulated as the classification of the real hyperedges and artificially generated ones in order to simplify both training and evaluation.Our work offers three significant contributions regarding HP. First, we present an improved formulation that is semantically aligned, computationally feasible, and better suited for various applications. Second, we make striking observations based on this improved formulation: (a) the performance in the classification formulation does not accurately reflect HP performance and is often negatively correlated, and (b) simple rule-based methods outperform advanced deep-learning approaches. Lastly, we present MHP, a novel HP method that utilizes masking-based training and outperforms all competing HP methods by up to 40%. },
+keywords = {Training;Correlation;Conferences;Neural networks;Collaboration;Benchmark testing;Search problems;Filling;Data mining},
+doi = {10.1109/ICDMW65004.2024.00051},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICDMW65004.2024.00051},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
+
+@InProceedings{Prasanna_2020,
+author="Patil, Prasanna
+and Sharma, Govind
+and Murty, M. Narasimha",
+editor="Lauw, Hady W.
+and Wong, Raymond Chi-Wing
+and Ntoulas, Alexandros
+and Lim, Ee-Peng
+and Ng, See-Kiong
+and Pan, Sinno Jialin",
+title="Negative Sampling for Hyperlink Prediction in Networks",
+booktitle="Advances in Knowledge Discovery and Data Mining",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="607--619",
+abstract="While graphs capture pairwise relations between entities, hypergraphs deal with higher-order ones, thereby ensuring losslessness. However, in hyperlink (i.e., higher-order link) prediction, where hyperlinks and non-hyperlinks are treated as ``positive'' and ``negative'' classes respectively, hypergraphs suffer from the problem of extreme class imbalance. Given this context, ``negative sampling''---under-sampling the negative class of non-hyperlinks---becomes mandatory for performing hyperlink prediction. No prior work on hyperlink prediction deals with this problem. In this work, which is the first of its kind, we deal with this problem in the context of hyperlink prediction. More specifically, we leverage graph sampling techniques for sampling non-hyperlinks in hyperlink prediction. Our analysis clearly establishes the effect of random sampling, which is the norm in both link- as well as hyperlink-prediction. Further, we formalize the notion of ``hardness'' of non-hyperlinks via a measure of density, and analyze its distribution over various negative sampling techniques. We experiment with some real-world hypergraph datasets and provide both qualitative and quantitative results on the effects of negative sampling. We also establish its importance in evaluating hyperlink prediction algorithms.",
+isbn="978-3-030-47436-2"
+}
+
+@misc{Hwang_2022,
+      title={AHP: Learning to Negative Sample for Hyperedge Prediction}, 
+      author={Hyunjin Hwang and Seungwoo Lee and Chanyoung Park and Kijung Shin},
+      year={2022},
+      eprint={2204.06353},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2204.06353}, 
+}

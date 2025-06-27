@@ -5,45 +5,47 @@ The style file: natnumurl.bst
 Database file #1: library.bib
 Warning--string name "nov" is undefined
 --line 23 of file library.bib
-You've used 3 entries,
+Warning--string name "dec" is undefined
+--line 101 of file library.bib
+You've used 5 entries,
             1986 wiz_defined-function locations,
-            468 strings with 4040 characters,
-and the built_in function-call counts, 984 in all, are:
-= -- 91
-> -- 47
+            484 strings with 4658 characters,
+and the built_in function-call counts, 1781 in all, are:
+= -- 165
+> -- 87
 < -- 0
-+ -- 16
-- -- 13
-* -- 77
-:= -- 134
-add.period$ -- 4
-call.type$ -- 3
-change.case$ -- 2
++ -- 30
+- -- 25
+* -- 144
+:= -- 238
+add.period$ -- 6
+call.type$ -- 5
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 56
-empty$ -- 86
-format.name$ -- 13
-if$ -- 240
+cite$ -- 5
+duplicate$ -- 90
+empty$ -- 158
+format.name$ -- 25
+if$ -- 435
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 22
-num.names$ -- 5
-pop$ -- 12
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 32
+num.names$ -- 7
+pop$ -- 23
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 76
 stack$ -- 0
-substring$ -- 26
-swap$ -- 29
+substring$ -- 86
+swap$ -- 46
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 4
-write$ -- 42
-(There was 1 warning)
+while$ -- 12
+width$ -- 6
+write$ -- 65
+(There were 2 warnings)
