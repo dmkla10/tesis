@@ -1,0 +1,155 @@
+product_id,product_name,aisle,department,aisle_id
+1,Triple-Acting Laundry Stain Remover,prepared soups salads,frozen,1
+2,Snack Bags,specialty cheeses,frozen,2
+3,Pods Spring Meadow Detergent + Stain Remover + Brightener,prepared soups salads,frozen,1
+4,2-Ply Everyday Napkins,energy granola bars,frozen,3
+5,Complete™ ActionPacs™ Fresh Scent Dishwasher Detergent,instant foods,frozen,4
+6,Organic Green Onions,marinades meat preparation,other,5
+7,Complete Clean with Bleach Toilet Bowl Cleaner,other,frozen,6
+8,Chocolate With Fudge Low Fat Ice Cream Cones,packaged meat,bakery,7
+9,White Beauty Bar,bakery desserts,produce,8
+10,Quick 1 Minute Oatmeal,pasta sauce,alcohol,9
+11,Green Onions,marinades meat preparation,other,5
+12,Lemon Ginger Caffeine Free Herbal Tea Bags,kitchen supplies,international,10
+13,Condensed Chicken Noodle Soup,cold flu allergy,beverages,11
+14,Original Glass Cleaner,other,frozen,6
+15,Organic Green Peas,fresh pasta,bakery,12
+16,Organic Lemon,prepared meals,other,13
+17,Revive Zero Vitamin Water,tofu meat alternatives,international,14
+18,Traditional Plain Greek Yogurt,packaged seafood,pets,15
+19,Oregano,fresh herbs,dry goods pasta,16
+20,Diet Ginger Ale,baking ingredients,international,17
+21,Traditional Scottish Style Smoked Salmon,bulk dried fruits vegetables,bulk,18
+22,Broccoli Crown,marinades meat preparation,other,5
+23,VitaminWater Zero™ XXX Acai Blueberry Pomegranate,tofu meat alternatives,international,14
+24,Gluten-Free Supergrain Pasta Elbows,oils vinegars,personal care,19
+25,Garlic Powder,fresh herbs,dry goods pasta,16
+26,Cumin,fresh herbs,dry goods pasta,16
+27,Organic Cottage Cheese,oral hygiene,pets,20
+28,Vegetable Classics Green Split Pea Soup,cold flu allergy,beverages,11
+29,Plain Bread Crumbs,packaged cheese,dry goods pasta,21
+30,Vitamin Water Zero Squeezed Lemonade,tofu meat alternatives,international,14
+31,Murphy Oil Soap Liquid Wood Cleaner,other,frozen,6
+32,Crushed Tomatoes,hair care,beverages,22
+33,Chili Powder,fresh herbs,dry goods pasta,16
+34,Ginger Ale,baking ingredients,international,17
+35,Large Greenhouse Tomato,marinades meat preparation,other,5
+36,Bag of Organic Bananas,prepared meals,other,13
+37,"Fabric Softener Sheets, Outdoor Fresh scent",prepared soups salads,frozen,1
+38,Tomato Paste,popcorn jerky,personal care,23
+39,Phish Food® Ice Cream,packaged meat,bakery,7
+40,Sweet Potato Yam,marinades meat preparation,other,5
+41,Raisins,fresh fruits,meat seafood,24
+42,Green Tea Bags,kitchen supplies,international,10
+43,Natural Apple Sauce Cups,soap,beverages,25
+44,Solid White Albacore Premium Tuna in Water,coffee,beverages,26
+45,Organic Yams,marinades meat preparation,other,5
+46,Water Stop Premium Gloves Small,beers coolers,frozen,27
+47,Double Zipper Gallon Freezer Bags,red wines,frozen,28
+48,Organic Fresh Carrot Chips,honeys syrups nectars,other,29
+49,Strawberries,prepared meals,other,13
+50,Creamy Peanut Butter,latino foods,dry goods pasta,30
+51,Fresh 99% Lean Ground Turkey,refrigerated,bulk,31
+52,Chick Peas,packaged produce,beverages,32
+53,Carrots,marinades meat preparation,other,5
+54,Organic Green Leaf Lettuce,marinades meat preparation,other,5
+55,100% Lemon Juice,kosher foods,international,33
+56,Organic Large Extra Fancy Fuji Apple,prepared meals,other,13
+57,Rich & Hearty Chicken & Homestyle Noodles Soup,cold flu allergy,beverages,11
+58,Sunburst Tangerine,prepared meals,other,13
+59,Organic Russet Potato,marinades meat preparation,other,5
+60,5.3 oz Sarvecchio Parmesan Wedge,frozen meat seafood,pets,34
+61,Original Whipped Cream Cheese,oral hygiene,pets,20
+62,PODS Free & Gentle Unscented Laundry Detergent,prepared soups salads,frozen,1
+63,"Ultra Soft Bathroom Tissue, Double Rolls",energy granola bars,frozen,3
+64,Organic Sesame Ginger Vinaigrette Dressing,poultry counter,dry goods pasta,35
+65,French Vanilla Sugar Free Liquid Coffee Creamer,butter,pets,36
+66,Plain Whole Milk Yogurt,packaged seafood,pets,15
+67,13 Gallon Tall Drawstring Kitchen Bags,ice cream ice,frozen,37
+68,Banana,prepared meals,other,13
+69,Fire Log,specialty cheeses,frozen,2
+70,Fresh Cut Golden Sweet Whole Kernel Corn,hair care,beverages,22
+71,Deli Select Ultra Thin Smoked Ham Lunch Meat,frozen meals,pantry,38
+72,Aged Red Wine Vinegar,seafood counter,dry goods pasta,39
+73,Quart Sized  Easy Open Freezer Bags,red wines,frozen,28
+74,No Calorie Sweetener Packets,dog food care,dry goods pasta,40
+75,All Natural Sour Cream,oral hygiene,pets,20
+76,Fresh Cauliflower,marinades meat preparation,other,5
+77,Gluten Free Quinoa Rotelle Pasta,oils vinegars,personal care,19
+78,Multi Surface Vinegar Cleaner,other,frozen,6
+79,Real Mayonnaise,cat food care,dry goods pasta,41
+80,Organic Whole Milk,frozen vegan vegetarian,pets,42
+81,Smartwater Electrolyte Enhanced Water,buns rolls,international,43
+82,Organic Fuji Apple,prepared meals,other,13
+83,Pretzel Rods,eye ear care,meat seafood,44
+84,Select-a-Size Rolls Paper Towels Tissue,energy granola bars,frozen,3
+85,Zero Go-Go Mixed Berry Vitamin Water,tofu meat alternatives,international,14
+86,Rishikesh Whole Grain Brown Basmati Organic Rice,candy chocolate,personal care,45
+87,Distilled White Vinegar,seafood counter,dry goods pasta,39
+88,Fancy Eggplant,marinades meat preparation,other,5
+89,Butternut Squash,marinades meat preparation,other,5
+90,Sea Salt Flakes Original,fresh herbs,dry goods pasta,16
+91,Vitamin Water Zero Rise Orange,tofu meat alternatives,international,14
+92,Extra Virgin Olive Oil,seafood counter,dry goods pasta,39
+93,Natural Emmentaler Swiss Cheese,frozen meat seafood,pets,34
+94,Ultra Soft Mega Rolls  Bathroom Tissue,energy granola bars,frozen,3
+95,Vanilla Blueberry Clusters With Flax Seeds Granola,mint gum,alcohol,46
+96,Pods Original Scent Laundry Detergent,prepared soups salads,frozen,1
+97,Pretzel Sticks,eye ear care,meat seafood,44
+98,White Giant Paper Towel Rolls,energy granola bars,frozen,3
+99,"Quinoa, Toasted Sesame Ginger",candy chocolate,personal care,45
+100,Pure Irish Butter,vitamins supplements,pets,47
+101,Light & Fit Strawberry Non Fat Greek Yogurt,packaged seafood,pets,15
+102,Classic Hummus,breakfast bars pastries,pantry,48
+103,Sparkling Natural Mineral Water,buns rolls,international,43
+104,Italian Bread Crumbs,packaged cheese,dry goods pasta,21
+105,Organic Honey,packaged poultry,dry goods pasta,49
+106,Organic Italian Parsley Bunch,fruit vegetable snacks,other,50
+107,Heavy Duty Non-Stick Aluminum Foil 35 sq ft,red wines,frozen,28
+108,Red Vine Tomato,marinades meat preparation,other,5
+109,Skinny Pack White Cheddar Popcorn,preserved dips spreads,meat seafood,51
+110,Black Beans,packaged produce,beverages,32
+111,Seasoning Bay Leaf,fresh herbs,dry goods pasta,16
+112,Cool Touch Coconut Oil & Aloe Facial Tissues,energy granola bars,frozen,3
+113,Organic Garbanzo Beans No Salt Added,packaged produce,beverages,32
+114,"Super Spinach! Baby Spinach, Baby Bok Choy, Sweet Baby Kale",honeys syrups nectars,other,29
+115,UltimateCare Premium Liquid Bleach,prepared soups salads,frozen,1
+116,Artichokes,marinades meat preparation,other,5
+117,100% Cranberry Juice,kosher foods,international,33
+118,Natural Muenster Cheese,frozen meat seafood,pets,34
+119,Organic Gala Apples,prepared meals,other,13
+120,"Disinfectant Cleanser, with Bleach",other,frozen,6
+121,XL Emerald White Seedless Grapes,honeys syrups nectars,other,29
+122,Ultra Downy® Clean Breeze™ Liquid Fabric Conditioner 51 Fl oz. 60 loads Fabric Enhancers,prepared soups salads,frozen,1
+123,Quinoa,candy chocolate,personal care,45
+124,Organic White Onions,marinades meat preparation,other,5
+125,Corn Muffin Mix,frozen breakfast,dry goods pasta,52
+126,Organic Artichoke,marinades meat preparation,other,5
+127,2% Reduced Fat Organic Milk,frozen vegan vegetarian,pets,42
+128,Ultra Concentrated Original Scent Dishwashing Liquid,instant foods,frozen,4
+129,"Fabric Softener, Free & Gentle",prepared soups salads,frozen,1
+130,Organic Jumbo Eggs,cream,pets,53
+131,Premium Plastic Wrap,red wines,frozen,28
+132,Pink Lady (Cripps) Apple,prepared meals,other,13
+133,Gluten Free Quinoa Pasta Shells,oils vinegars,personal care,19
+134,100% Grated Parmesan Cheese,frozen meat seafood,pets,34
+135,Water Stop Premium Gloves Medium,other,frozen,6
+136,Zero Vitamin Water,tofu meat alternatives,international,14
+137,Red Onion,marinades meat preparation,other,5
+138,Organic Sun Dried Tomatoes,hair care,beverages,22
+139,Long Reach Matches,specialty cheeses,frozen,2
+140,Brussels Sprouts,marinades meat preparation,other,5
+141,Half Baked® Ice Cream,packaged meat,bakery,7
+142,Ultra Original Scent Dishwashing Liquid,instant foods,frozen,4
+143,Quick Cooking Rolled Oats Irish Oatmeal,pasta sauce,alcohol,9
+144,Asparagus,marinades meat preparation,other,5
+145,Unsweetened Original Almond Breeze Almond Milk,paper goods,pets,54
+146,Gluten Free Quinoa Linguine,oils vinegars,personal care,19
+147,Steel Cut Irish Oatmeal,pasta sauce,alcohol,9
+148,Peach Zero Calorie Iced Tea,kitchen supplies,international,10
+149,Organic Sweet Peas,fresh pasta,bakery,12
+150,Red Wine Vinegar & Olive Oil Lite Dressing,poultry counter,dry goods pasta,35
+151,Premium Organic Whole Kernel Sweet Corn,fresh pasta,bakery,12
+152,Crackleflame Firelogs,specialty cheeses,frozen,2
+153,Coarse Ground Black Pepper,fresh herbs,dry goods pasta,16
+154,Pods Ocean Mist Detergent + Stain Remover + Brightener,prepared soups salads,frozen,1
