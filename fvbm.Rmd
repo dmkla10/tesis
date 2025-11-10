@@ -1,0 +1,16 @@
+library(BoltzMM)
+
+
+data = read.csv("created_data/incidence_matrix.csv")
+data = data*2-1
+I_matrix = as.matrix(data)
+d = nrow(data)
+bm = fitfvbm(t(I_matrix), bvec= rep(0, d), Mmat = matrix(0, nrow = d,ncol = d), delta_crit = 0.00000001)
+
+W = bm$Mmat
+b = bm$bvec
+
+b
+
+
+test = fvbmtests(t(I_matrix), bm, list(bvec=rep(0, d),  Mmat=matrix(0, nrow = d,ncol = d)))
