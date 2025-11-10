@@ -1,5 +1,29 @@
 \chapter{Modelo Propuesto}
 
+Sea  $x_{i,j}$ la variable aleatoria que indica la participación del sujeto i en el crimen j, lo que buscamos con nuestro modelo es proponer $\{x_{i,j}\}_{i \in V}$ para un $j$ fijo.\\
+
+Para esto, contamos con $W$ y $Z$, matrices de catacterísticas de los sujetos y los crímenes historicos, donde $w_i$ son las características del sujeto $i$, y $z_j$ son las características del delito $j$. Asumimos que los sujetos que cometen el nuevo delito se encuentran dentro del conjunto de sujetos ya conocidos.\\
+
+En nuestra aplicación, no modelaremos directamente $p(\{x_{i,j}\}_{i \in V})$ por los motivos ya explicados en la revisión bibliográfica, sino que nos centraremos en entender $p(x_{i,j}|\{x_{k,j}\}_{k \neq i})$ para luego obtener las agrupaciones más probables.\\
+
+Esta variable aleatoria, $x_{i,j}|\{x_{k,j}\}_{k \neq i}$, sigue una distribución bernoulli con probabilidad $p$, probabilidad que podemos modelar como una regresión logit (o beta). Por lo tanto, tenemos:
+ 
+\begin{center}
+    $p(x_{i,j}|\{x_{k,j}\}_{k \neq i}) \sim Bernoulli(logit^{-1}(u))$
+\end{center}
+
+Donde $u$ es una función de regresión que depende de las características del sujeto $i$, de las características del grupo, de los delitos, y un grupo de parámetros $\theta$. Esta función podemos interpretarla como una función de utilidad.\\
+
+Recordemos que el objetivo de nuestro modelo es plantear una agrupación donde los sujetos tienen una alta propensión a participar en un delito con las características del delito observado, al mismo tiempo que cada sujeto por separado tiene una alta propensión a participar con el resto de sujetos de la agrupación propuesta. Por lo tanto, la utilidad de un sujeto por participar en un delito se descompone en estos dos elementos.\\
+
+\begin{center}
+    $u_{i,j} = z_j^T \theta_i + q(\{x_{k,j}\}_{k \neq i})^T \lambda_i + w_i^T \beta$
+\end{center}
+
+Donde $\theta_i$ son los parámetros de propensión del sujeto $i$ por las características del delito $j$, $q(\{x_{k,j}\}_{k \neq i})$ es una función que entrega características de la agrupación, $\lambda_i$ es la propensión del sujeto $i$ por las características de la agrupación, y $\beta$ es la propensión general del sujeto $i$ por la comisión de delitos dadas sus características.\\
+
+Para encontrar las posibles agrupaciones sin tener que explorar el espacio de posibles agrupaciones completo, recurrimos al Gibbs Sampling.
+
 \section{Modelo Generativo Subyacente}
 
 Para plantear nuestro modelo, asumimos un modelo generativo subyacente, el cuál no nos interesa ajustar ni modelar en detalle, pero que es útil para el planteamiento del nuestro modelo de predicción de enlaces.\\

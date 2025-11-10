@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1751000663.03398 "main.aux" "main.bbl" "main" 1751001400.8338 0
+["bibtex main"] 1751919338.71287 "main.aux" "main.bbl" "main" 1752525480.57513 0
   "./library.bib" 1750998905 5600 3b0f2c3536e448146879fa1b2aaaab47 ""
   "./natnumurl.bst" 1748834226 21201 c3a97a2434b58cd70f7f9c9df607b80a ""
-  "main.aux" 1751001399 8960 6344c23fda52e682be8cb3eadd00c3e3 "pdflatex"
+  "main.aux" 1752525479 8961 4f05016a87a3d59e8756ac2ade1bb537 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1751001397.29143 "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" "main.pdf" "main" 1751001400.83435 0
+["pdflatex"] 1752525476.94966 "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" "main.pdf" "main" 1752525480.57571 0
   "c:/Users/dimot/Documents/Universidad/tesis/tesis/thesis document/main.tex" 1750993181 3130 f86d23db78ca1d9f260227560ff68d3e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1748807559 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1748807559 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -366,14 +366,14 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748824019 3568607 0285e8a529c34ecc473940c592cdeb56 ""
   "c:/texlive/2025/texmf.cnf" 1748807783 713 e69b156964470283e0530f5060668171 ""
   "chapters/images/model.tex" 1750019001 295 46fac5e67550c4390d6fc1020b8c5509 ""
-  "chapters/introduction.tex" 1749160000 2926 1c6736df29b14bc4f43931cf1d111ce9 ""
-  "chapters/literature_review.tex" 1751001396 6875 7fd90c531c8726e420eb6ab83e7a2616 ""
-  "chapters/proposed_model.tex" 1750188977 3136 ddda4f4456f7f6b470026714ce90f1cf ""
+  "chapters/introduction.tex" 1751050769 3029 ba64984d62ed5e639b593bf4af0f0003 ""
+  "chapters/literature_review.tex" 1751050425 7453 348fd50df4be4e28a215c36fccd48854 ""
+  "chapters/proposed_model.tex" 1752525476 5589 7178631d098b3ace8b68bad379017371 ""
   "img//departamentos/uchile2.pdf" 1748834226 18772 1d92f499584e10e4c8e0b3bf44be0bbf ""
-  "main.aux" 1751001399 8960 6344c23fda52e682be8cb3eadd00c3e3 "pdflatex"
-  "main.bbl" 1751000663 2064 dba98a9832955ccced24cb7e88e1864e "bibtex main"
+  "main.aux" 1752525479 8961 4f05016a87a3d59e8756ac2ade1bb537 "pdflatex"
+  "main.bbl" 1751919339 2064 dba98a9832955ccced24cb7e88e1864e "bibtex main"
   "main.tex" 1750993181 3130 f86d23db78ca1d9f260227560ff68d3e ""
-  "main.toc" 1751001399 1226 f45af92e90a9326dcfd6c59d6ca72331 "pdflatex"
+  "main.toc" 1752525479 1226 76c1af85b5aedd62715cad7954d692ef "pdflatex"
   "template.tex" 1749580957 290939 b14fe810fc26a3379a94a3397aa30319 ""
   "template_config.tex" 1748834226 21965 2a99f3119ef44872b6f304c32fbac1fa ""
   (generated)

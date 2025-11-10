@@ -34,7 +34,7 @@ Por ejemplo, en el caso del crímen, diferentes sujetos tienen diferentes
 Como mencionan Chen \& Liu \cite{Chen_2024}, los hipergrafos son una generalización de los grafos, donde los hiperenlaces, enlaces de los hipergrafos, pueden tener una cantidad arbitraria de nodos.
 Un hipergrafo se define como \begin{math} H = \{V,E\}\end{math} donde $V=\{n_{1},n_{2},...,n_{n}\}$ es el conjunto de nodos y $E=\{e_{1},e_{2},\dots,e_{m}\}$ es el conjunto de hiperenlaces, donde cada hiperenlace es un conjunto de nodos, o sea, $e_{p} \subseteq E \; \; \forall \: p \in 1,\dots,m$.\\
 
-Para representar matricialmente un hipergrafo, se utiliza una \textit{matríz de incidencia} $H \in \mathbb{R}^{n \times m}$, donde cada fila representa un vector, cada columna un hiperenlace. En esta notación, el valor de $H_{j,i}$ es 1 si el nodo $i$ pertenece al hipernlace $j$, y 0 si no.\\
+Para representar matricialmente un hipergrafo, se utiliza una \textit{matríz de incidencia} $X \in \mathbb{R}^{n \times m}$, donde cada fila representa un vector, cada columna un hiperenlace. En esta notación, el valor de $H_{j,i}$ es 1 si el nodo $i$ pertenece al hipernlace $j$, y 0 si no.\\
 
 Como ejemplo, a continuación mostramos una matriz de incidencia junto al hipergrafo que representa:\\
 
@@ -60,7 +60,7 @@ Como ejemplo, a continuación mostramos una matriz de incidencia junto al hiperg
         \end{center}
 \end{minipage}
 
-Para nuestro caso, tenemos además un vector de atributos para cada nodo e hiperenlace, $w_i$ y $z_j$ respectivamente, con $i \in 1,\dots,n$ y $j \in 1,\dots,m$.
+Para nuestro caso, tenemos además un vector de atributos para cada nodo e hiperenlace, $w_i$ y $z_j$ respectivamente, con $i \in 1,\dots,n$ y $j \in 1,\dots,m$.\\
 
 \subsection{Predicción de hiperenlaces}
 En \cite{Chen_2024}, Chen \& Liu realizan un análisis sistemático de la literatura sobre predicción de hipergrafos hasta el año 2022. En este articulo, se plantea el problema de la predicción de hiperenlaces como el aprendizaje de la función $\Psi $ tal que para un hiperenlace potencial $e$ se logre:
@@ -83,7 +83,18 @@ Es por esto que para la predicción de hiperenlaces bajo esta formulación, se u
 
 Este enfoque, aunque ampliamente utilizado en la literatura sobre predicción de hiperenlaces, es criticada por Yu et al en \cite{Yu_2024}, mencionando que esta formulación asume que con un pequeño muestreo de los hiperenlaces negativos podemos generalizar la predicción sobre toda la población de hiperenlaces negativos.\\
 
-Como alternativa, en \cite{Yu_2024} proponen un planteamiento donde: \textbf{dado} un hipergrafo $H = (V,E,X)$, con X la matriz de atributos de los nodos, un conjunto de nodos de consulta $Q \subset V$, un tamaño objetivo $s$, y una cantidad de soluciones objetivo $k$, \textbf{se busca obtener} hasta $k$ hiperenlaces que pertenezcan al conjunto de hiperenlaces verdaderos positivos para nuestro hipergrafo, \textbf{sujeto a} que el conjunto de nodos de consulta estén dentro de los hiperenlaces propuestos. (este parrafo está casi igual al del paper citado, está bien?)\\ 
+Para apoyar esta postura, realizan un experimento donde comparan la 
+
+En términos más informales, la predicción de hiperenlaces, como indica su nombre, debería \textit{predecir} los hiperenlaces no observados o futuros, o sea, debería entregar un conjunto de hiperenlaces predichos, cuando en cambio con la clasificación, lo que hacemos es mostrar al algoritmo un conjunto de hiperenlaces, y el algoritmo nos dice cuáles hiperenlaces de ese conjunto son los más probables de ser reales.\\
+
+Como alternativa, en \cite{Yu_2024} se propone el siguiente planteamiento:
+
+\begin{itemize}
+    \item \textbf{Dado} (a) un hipergrafo $H = (V,E,W)$, con W la matriz de atributos de los nodos, (b) un conjunto de nodos de consulta $Q \subset V$, (c) un tamaño objetivo $s$, y (d) una cantidad de soluciones objetivo $k$
+    \item \textbf{Encontrar} hasta $k$ hiperenlaces que pertenezcan al conjunto de hiperenlaces verdaderos positivos para nuestro hipergrafo
+\end{itemize}
+
+, \textbf{sujeto a} que el conjunto de nodos de consulta estén dentro de los hiperenlaces propuestos. (este parrafo está casi igual al del paper citado, está bien?)\\ 
 
 Este planteamiento se acerca nuestro caso de estudio más que la formulación como clasificación.\\
 
