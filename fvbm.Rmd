@@ -1,8 +1,8 @@
 library(BoltzMM)
 
-
-data = read.csv("created_data/incidence_matrix.csv")
+data = read.csv("created_data/simulated_incidence_matrix.csv")
 data = data*2-1
+data
 I_matrix = as.matrix(data)
 d = nrow(data)
 bm = fitfvbm(t(I_matrix), bvec= rep(0, d), Mmat = matrix(0, nrow = d,ncol = d), delta_crit = 0.00000001)
@@ -10,7 +10,13 @@ bm = fitfvbm(t(I_matrix), bvec= rep(0, d), Mmat = matrix(0, nrow = d,ncol = d), 
 W = bm$Mmat
 b = bm$bvec
 
-b
-
+write.csv(W, "created_data/simulated_W.csv", row.names = FALSE)
+write.csv(data.frame(b), "created_data/simulated_b.csv", row.names = FALSE)
 
 test = fvbmtests(t(I_matrix), bm, list(bvec=rep(0, d),  Mmat=matrix(0, nrow = d,ncol = d)))
+
+W_p = test$Mmat_p
+W_p[is.na(W_p)] = 0
+
+write.csv(W_p, "created_data/simulated_W_p_values.csv", row.names = FALSE)
+write.csv(data.frame(test$bvec_p), "created_data/simulated_b_p_values.csv", row.names = FALSE)
