@@ -1,7 +1,7 @@
 import numpy as np
 from itertools import product
 from scipy import stats, optimize
-from scipy.special import logsumexp
+from scipy.special import logsumexp, softplus, expit
 
 class FVBM():
     def __init__(self, parameters:dict,d:int, max_d = 10):
@@ -59,6 +59,7 @@ class FVBM():
         for s in sample_id:
             sample.append(self.id_to_omega[s])
         self.samples = sample
+        self.samples_array = np.array(self.samples)
         self.sample_indices = [self.omega.index(x) for x in self.samples]
         
         self.D_x = np.zeros(self.d)
@@ -197,22 +198,47 @@ class FVBM():
         b = {i:b[i] for i in range(self.d)}
         b_vector = np.array(list(b.values()))
         
-        linear = self.omega_array @ b_vector
-        quad = np.zeros(len(self.omega_array))
-        for k, (i, j) in enumerate(self.theta_ids):
-            quad += theta_values[k] * self.xx[(i, j)]
-        log_scores = linear + quad
-        logZ = logsumexp(log_scores)
-        p = np.exp(log_scores - logZ)
+        U = np.dot(self.samples_array, W) + b_vector
         
-        ll = np.sum(log_scores[self.sample_indices]) - len(self.samples) * logZ
+        lpl = (self.samples_array*U - softplus(U)).sum()
             
-        return -ll
-        
-        
+        return -lpl
     
-    def logpl_jac(self):
-        pass
+    def logpl_jac(self, params):
+        
+        assert(len(params) == (len(self.b) + len(self.theta)))
+        
+        b_values = params[:self.d]
+        theta_values = params[self.d:]
+        theta = {}
+        b = {}
+        for i,key in enumerate(self.theta.keys()):
+            theta[key] = theta_values[i]
+        for i,key in enumerate(self.b.keys()):
+            b[key] = b_values[i]
+        
+        assert(len(theta) == len(self.theta))
+        assert(len(b) == len(self.b))
+        
+        W = np.zeros(shape=(self.d,self.d))
+        for key in theta.keys():
+            W[key] = theta[key]
+            W[tuple(reversed(key))] = theta[key]
+        b = {i:b[i] for i in range(self.d)}
+        b_vector = np.array(list(b.values()))
+        
+        U = np.dot(self.samples_array, W) + b_vector
+        resid = self.samples_array - expit(U)
+        b_jac = resid.sum(axis=0)
+        
+        W_jac = np.dot(self.samples_array.T,resid)
+        w_jac = np.array([W_jac[i, j] for (i, j) in self.theta_ids])
+        
+        jac = np.concatenate([b_jac, w_jac])
+        
+        return -jac
+        
+        
     
     def fit_logpl(self, show_progress:bool=False):
         param0 = np.array([0]*self.param_size)
