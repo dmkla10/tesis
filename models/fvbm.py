@@ -4,9 +4,9 @@ from scipy import stats, optimize
 from scipy.special import logsumexp, softplus, expit
 
 class FVBM():
-    def __init__(self, parameters:dict,d:int, max_d = 10):
+    def __init__(self, parameters:dict,d:int):
         
-        self.d = min(d,max_d)
+        self.d = int(d)
         self.param_size = int(self.d+0.5*self.d*(self.d-1))
         self.b = {i:parameters["b"][i] for i in range(self.d)}
         self.b_vector = np.array(list(self.b.values()))
@@ -18,6 +18,7 @@ class FVBM():
         
         
         # Checkeamos que los parámetros estén en orden
+        assert(self.d == d)
         assert(len(self.theta) == 0.5*self.d*(self.d-1))
         assert(len(self.b) == self.d)
         for i in range(self.d):
