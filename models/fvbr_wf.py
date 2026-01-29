@@ -3,14 +3,15 @@ from itertools import product
 from scipy import stats, optimize
 from scipy.special import logsumexp, softplus, expit
 
-class FVBR_NC():
+class FVBR_WF():
     """
     Fully Visible Boltzmann Regression with No Covariates.
     Assumes that each theta_{(i,j)} = alpha_i + alpha_j
     """
-    def __init__(self, parameters:dict,d:int):
+    def __init__(self, parameters:dict,d:int, d_max_l:int=10):
         
         self.d = int(d)
+        self.d_max_l = int(d_max_l)
         self.param_size = 2*self.d
         
         assert(self.d == d)
@@ -87,6 +88,8 @@ class FVBR_NC():
         """
         Compute the likelihood for a set of parameters
         """
+        if self.d > self.d_max_l:
+            raise ValueError("d is too big for likelihood computation")
         assert(len(params) == (len(self.b) + len(self.alpha)))
         
         b_values = params[:self.d]

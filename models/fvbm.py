@@ -4,9 +4,10 @@ from scipy import stats, optimize
 from scipy.special import logsumexp, softplus, expit
 
 class FVBM():
-    def __init__(self, parameters:dict,d:int):
+    def __init__(self, parameters:dict,d:int, d_max_l:int=10):
         
         self.d = int(d)
+        self.d_max_l = d_max_l
         self.param_size = int(self.d+0.5*self.d*(self.d-1))
         self.b = {i:parameters["b"][i] for i in range(self.d)}
         self.b_vector = np.array(list(self.b.values()))
@@ -77,6 +78,8 @@ class FVBM():
         """
         Compute the likelihood for a set of parameters
         """
+        if self.d > self.d_max_l:
+            raise ValueError("d is too big for likelihood computation")
         assert(len(params) == (len(self.b) + len(self.theta)))
         
         b_values = params[:self.d]
@@ -110,7 +113,10 @@ class FVBM():
             
         return -ll
     
-    def logl_jac(self, params, minimizing:bool=True):
+    def logl_jac(self, params):
+        
+        if self.d > self.d_max_l:
+            raise ValueError("d is too big for likelihood computation")
         assert(len(params) == (len(self.b) + len(self.theta)))
         
         b_values = params[:self.d]
